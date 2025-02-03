@@ -1,0 +1,35 @@
+mkdir ~/LabWork - создание новой директории в вашем домашнем каталоге с именем LabWork.
+
+cd ~/LabWork - создание текстового файла с именем example.txt внутри созданной директории LabWork.
+
+echo "Hello, World!" > example.txt - добавление текста в файл с помощью команды echo.
+
+cp example.txt copy_example.txt - копирование файла example.txt в ту же директорию, но с новым именем copy_example.txt.
+
+mv copy_example.txt renamed_example.txt - переименование файла copy_example.txt в renamed_example.txt.
+
+rm renamed_example.txt - удаление файла renamed_example.txt.
+
+------
+
+git clone <URL репозитория> - команда копирования репозитория на локальный компьютер.
+
+touch new_file.txt для Unix-подобных систем или echo.>new_file.txt для Windows - создание нового текстового файла.
+
+git add new_file.txt - добавление файла в индекс.
+
+git commit -m "Добавлен новый файл" - закоммитить добавленный файл с комментарием "Добавлен новый файл".
+
+-------
+
+git remote add origin <URL удаленного репозитория> -  добавление удаленного репозитория в локальный.
+
+git push origin <branch_name> - отправка изменений из локального репозитория на удаленный.
+
+git checkout -b <branch_name> - создание новой ветки локально.
+
+git push origin <branch_name> - запушить новую ветку на удаленный репозиторий.
+
+git push origin --delete <branch_name> - удаление ветки из удаленного репозитория.
+
+git pull origin <branch_name> -  получение изменений из удаленного репозитория на локальный.
