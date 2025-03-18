@@ -1,15 +1,15 @@
 Задание 1: Клонировать удаленный репозиторий
 # 1. Найти удаленный репозиторий на GitHub, GitLab или другой платформе.
-# Например, URL репозитория: https://github.com/username/repo.git
+# Например, URL репозитория: https://github.com/Dozy-y/hmwk_Linux_Git.git
 # 2. На локальном компьютере выполнить команду git clone <URL удаленного репозитория>.
-git clone https://github.com/username/repo.git
+git clone https://github.com/Dozy-y/hmwk_Linux_Git.git
 # 3. Убедиться, что репозиторий успешно склонирован на локальный компьютер.
 cd repo  # Переход в директорию склонированного репозитория
 ls       # Проверка содержимого директории
 
 Задание 2: Добавить удаленный репозиторий
 # 1. В командной строке выполнить команду git remote add origin <URL удаленного репозитория>.
-git remote add origin https://github.com/username/repo.git
+git remote add origin https://github.com/Dozy-y/hmwk_Linux_Git.git
 
 Задание 3: Отправить изменения на удаленный репозиторий
 # 1. Выполнить команду git push origin <branch_name> для отправки изменений из локального репозитория на удаленный.
